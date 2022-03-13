@@ -50,7 +50,7 @@ const ReactionSchema = new Schema(
         required: true,
         ref: 'User'
       },
-      reactions: [ReplySchema]
+      reactions: [ReactionSchema]
     },
     {
       toJSON: {
